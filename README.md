@@ -27,3 +27,7 @@ uv run helpdesk-ai-pipeline 31839 --output data/inspection/ticket_31839.json
 ```
 
 Las extracciones pueden contener datos personales; mantenlas locales y fuera de Git.
+
+## Modelo de datos
+
+La propuesta en [`docs/modelo-datos.md`](docs/modelo-datos.md) separa la solicitud (`description_text`) de las respuestas y notas en `conversations.body_text`, clasificadas con sus campos de origen y privacidad.
