@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-helpdesk-ai-pipeline = "helpdesk_ai_pipeline.probe:main"
+helpdesk-ai-pipeline = "helpdesk_ai_pipeline.connectors.freshservice.probe:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
